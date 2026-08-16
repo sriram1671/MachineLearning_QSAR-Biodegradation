@@ -1,0 +1,66 @@
+{
+  "dataset": {
+    "name": "UCI QSAR Biodegradation (OpenML qsar-biodeg v1)",
+    "n_features": 41,
+    "n_instances": 1055,
+    "n_classes": 2,
+    "class_names": [
+      "NRB",
+      "RB"
+    ],
+    "class_meaning": {
+      "NRB": "Not ready biodegradable (OpenML class 1)",
+      "RB": "Ready biodegradable (OpenML class 2)"
+    },
+    "target_column": "target",
+    "positive_class": "RB",
+    "class_counts": {
+      "NRB": 699,
+      "RB": 356
+    },
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "models": {
+    "Logistic Regression": {
+      "Accuracy": 0.8436,
+      "AUC": 0.9117,
+      "Precision": 0.7159,
+      "Recall": 0.8873,
+      "F1": 0.7925,
+      "MCC": 0.6792
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8294,
+      "AUC": 0.8689,
+      "Precision": 0.7333,
+      "Recall": 0.7746,
+      "F1": 0.7534,
+      "MCC": 0.6237
+    },
+    "kNN": {
+      "Accuracy": 0.8483,
+      "AUC": 0.9018,
+      "Precision": 0.7532,
+      "Recall": 0.8169,
+      "F1": 0.7838,
+      "MCC": 0.6686
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.673,
+      "AUC": 0.8336,
+      "Precision": 0.5076,
+      "Recall": 0.9437,
+      "F1": 0.6601,
+      "MCC": 0.468
+    },
+    "Random Forest (Ensemble)": {
+      "Accuracy": 0.8768,
+      "AUC": 0.9412,
+      "Precision": 0.8358,
+      "Recall": 0.7887,
+      "F1": 0.8116,
+      "MCC": 0.7208
+    }
+  }
+}
