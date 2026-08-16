@@ -1,8 +1,8 @@
 # QSAR Biodegradability Lab
 
-Machine Learning Assignment 2
-R.Sriram Prakash
-2025ac05101
+### Machine Learning Assignment 2
+**R.Sriram Prakash** <br>
+**2025ac05101**
 
 Interactive Streamlit app that scores five classical classifiers on the UCI **QSAR Biodegradation** dataset and reports Accuracy, AUC, Precision, Recall, F1 and MCC on test data.
 
@@ -31,7 +31,7 @@ Descriptor families include eigenvalues of graph-theoretic matrices, atom counts
 
 ## c. GitHub repository link
 
-
+https://github.com/sriram1671/MachineLearning_QSAR-Biodegradation
 
 Repository layout :
 
@@ -84,6 +84,7 @@ Binary Precision / Recall / F1 use **RB as the positive class**.
 
 ## Streamlit app
 
+https://machinelearningqsar-biodegradation.streamlit.app
 
 
 UI features:
